@@ -1,0 +1,9 @@
+django
+python-dotenv
+psycopg2-binary
+django-filter
+django-cors-headers
+djangorestframework
+djangorestframework-simplejwt
+djangorestframework-simplejwt[crypto]
+
