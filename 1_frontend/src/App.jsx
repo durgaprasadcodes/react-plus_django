@@ -1,5 +1,5 @@
 import { AuthProvider } from './context/AuthContext';
-import Profile from './components/Profile';
+import DashBoard from './pages/DashBoard';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -12,8 +12,8 @@ export default function App() {
       element: <Home />,
     },
     {
-      path: '/profile',
-      element: <Profile />,
+      path: '/DashBoard',
+      element: <DashBoard />,
     },
     {
       path: '/login',
